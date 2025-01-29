@@ -4,7 +4,7 @@ const {
   getAllEwaste,
   getEwasteById,
   deleteEwaste
-} = require('../controllers/ewasteController.js');
+} = require('../controllers/eWasteController');
 const upload = require('../middleware/upload');
 const validateWalletAddress  = require('../middleware/validateWallet');
 
