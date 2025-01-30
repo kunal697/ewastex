@@ -26,7 +26,7 @@ mongoose
 
 app.get("/", (req, res) => {
   res.json({
-    mongoUrl: process.env.MONGOURL || "MONGOURL is not set",
+    mongoUrl: process.env.MONGO_URI || "MONGOURL is not set",
     allEnv: process.env, // Optional: List all env variables
   });
 });
