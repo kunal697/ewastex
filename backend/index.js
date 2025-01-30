@@ -24,11 +24,13 @@ mongoose
     console.log(err);
   });
 
-scheduleBiddingCheck();
-
 app.get("/", (req, res) => {
-  res.send(`MONGOURL = ${process.env.MONGO_URL}`);
+  res.json({
+    mongoUrl: process.env.MONGOURL || "MONGOURL is not set",
+    allEnv: process.env, // Optional: List all env variables
+  });
 });
+
 
 
 app.use("/api/ewaste", eWasteRoutes);
