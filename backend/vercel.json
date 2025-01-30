@@ -1,15 +1,15 @@
 {
     "version": 2,
-   "functions": {
-		"./index.js": {
-			"maxDuration": 60
-		}
-	},
+    "builds": [
+      {
+        "src": "./index.js",
+        "use": "@vercel/node"
+      }
+    ],
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "/",
-        "methods": ["GET","POST","PATCH","DELETE","OPTIONS","PUT"] 
+        "dest": "/"
       }
     ]
   }
