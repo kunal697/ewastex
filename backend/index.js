@@ -26,10 +26,10 @@ mongoose
 
 scheduleBiddingCheck();
 
-// Home route
 app.get("/", (req, res) => {
-  res.send("Welcome to the E-Waste Management API!");
+  res.send(`MONGOURL = ${process.env.MONGO_URL}`);
 });
+
 
 app.use("/api/ewaste", eWasteRoutes);
 app.use("/api/bid", bidRoutes);
