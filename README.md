@@ -1,6 +1,6 @@
 <h1 align="center" id="title">Ewaste-x</h1>
 
-<p align="center"><img src="https://socialify.git.ci/kunal697/ewastex/image?description=1&amp;forks=1&amp;language=1&amp;name=1&amp;owner=1&amp;pulls=1&amp;stargazers=1&amp;theme=Dark" alt="project-image"></p>
+<p align="center"><img src="https://socialify.git.ci/kunal697/ewastex/image?description=1&amp;forks=1&amp;language=1&amp;name=1&amp;owner=1&amp;pulls=1&amp;stargazers=1&amp;theme=Light" alt="project-image"></p>
 
 This is a MERN stack-based platform for e-waste recycling, allowing users to buy, sell, donate, and bid on e-waste. The platform also features a rewards system where users earn coins for their contributions, which can be exchanged for cryptocurrency.
 
